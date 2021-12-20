@@ -28,3 +28,7 @@
 .row__posterLarge {
   max-height: 250px;
 }
+.youtube {
+  display: block;
+  margin: 0 auto;
+}
