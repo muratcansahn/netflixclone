@@ -2,7 +2,9 @@
   margin-left: 10px;
   color: white;
 }
-
+.row h2 {
+  margin-left: 15px;
+}
 .row__posters {
   display: flex;
   overflow-y: hidden;

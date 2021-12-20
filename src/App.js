@@ -14,10 +14,14 @@ function App() {
         fetchUrl={requests.fetchNetflixOriginals}
         isLargeRow
       />
-      <Row title={"TRENDING NOW "} fetchUrl={requests.fetchTrending} />
-      <Row title={"TRENDING NOW "} fetchUrl={requests.fetchTrending} />
-      <Row title={"TRENDING NOW "} fetchUrl={requests.fetchTrending} />
-      <Row title={"TRENDING NOW "} fetchUrl={requests.fetchTrending} />
+      <Row title={"Trending Now"} fetchUrl={requests.fetchTrending} />
+      <Row title={"History Movies"} fetchUrl={requests.fetchHistoryMovies} />
+      <Row
+        title={"Animation Movies"}
+        fetchUrl={requests.fetchAnimationMovies}
+      />
+      <Row title={"Fantasy Movies"} fetchUrl={requests.fetchFantasyMovies} />
+      <Row title={"Romance Movies"} fetchUrl={requests.fetchRomanceMovies} />
     </div>
   );
 }
